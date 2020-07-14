@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Meme } from "./components/Meme";
+import { Switch, Route } from "react-router-dom";
+import { MemeGenerated } from "./components/MemeGenerated";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Meme Creator</h1>
+      <Switch>
+        <Route exact path="/">
+          <Meme />
+        </Route>
+        <Route path="/generated">
+          <MemeGenerated />
+        </Route>
+      </Switch>
     </div>
   );
 }

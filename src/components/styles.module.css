@@ -1,0 +1,13 @@
+.container {
+    margin-top: 50px
+}
+
+.skip, .home {
+    background-color: #f0ad4e;
+}
+
+.generate, .copy {
+    background-color: #0275d8;
+    margin-top: 20px;
+}
+
