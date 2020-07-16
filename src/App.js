@@ -3,6 +3,7 @@ import { Meme } from "./components/Meme";
 import { Switch, Route } from "react-router-dom";
 import { MemeGenerated } from "./components/MemeGenerated";
 
+
 function App() {
   return (
     <div>

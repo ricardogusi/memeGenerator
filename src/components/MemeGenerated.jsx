@@ -6,6 +6,7 @@ import { useClipboard } from 'use-clipboard-copy';
 export const MemeGenerated = () => {
   
   const [copied, setCopied] = useState(false);
+  
 
   const clipboard = useClipboard();
   const history = useHistory();
