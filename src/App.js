@@ -9,7 +9,7 @@ function App() {
     <div>
       <h1>Meme Creator</h1>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/memeGenerator">
           <Meme />
         </Route>
         <Route path="/generated">

@@ -1,5 +1,5 @@
 .container {
-    margin-top: 50px
+    margin-top: 20px
 }
 
 .skip, .home {
@@ -9,6 +9,6 @@
 
 .generate, .copy {
     background-color: #0275d8;
-    margin-top: 20px;
+    
 }
 
